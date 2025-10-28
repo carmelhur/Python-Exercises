@@ -1,0 +1,428 @@
+2025-10-27 17:22:58,668 [INFO] LoggerConfig: Logging configured. Writing to logs\app.log
+2025-10-27 17:23:04,420 [INFO] my_application_logger: finished filtering all sample texts
+2025-10-27 17:23:04,421 [INFO] my_application_logger: built inverted index to the files
+2025-10-27 17:24:44,260 [INFO] LoggerConfig: Logging configured. Writing to logs\app.log
+2025-10-27 17:25:07,746 [INFO] LoggerConfig: Logging configured. Writing to logs\app.log
+2025-10-27 17:27:58,070 [INFO] LoggerConfig: Logging configured. Writing to logs\app.log
+2025-10-27 17:28:07,352 [INFO] Processor.QueryProcessor: apply filters on query
+2025-10-27 17:30:55,226 [INFO] LoggerConfig: Logging configured → logs\app.log
+2025-10-27 17:31:10,429 [INFO] Processor.FileProcessor: apply filters on all files
+2025-10-27 17:31:10,430 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-27 17:31:16,136 [INFO] Processor.QueryProcessor: apply filters on query
+2025-10-27 17:41:56,419 [INFO] LoggerConfig: Logging configured
+2025-10-27 17:42:02,108 [INFO] Processor.FileProcessor: Applied filters on all files in C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-27 17:42:02,109 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-27 17:42:05,686 [INFO] Processor.QueryProcessor: apply filters on query
+2025-10-27 17:46:14,978 [INFO] LoggerConfig: Logging configured
+2025-10-27 17:46:20,667 [INFO] Processor.FileProcessor: Applied filters on all files
+2025-10-27 17:46:20,668 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-27 17:46:25,445 [INFO] Processor.QueryProcessor: apply filters on query
+2025-10-27 17:46:25,446 [INFO] Search.Searcher: found three most high scores file
+2025-10-27 17:54:44,688 [INFO] LoggerConfig: Logging configured
+2025-10-27 17:54:45,467 [INFO] __main__: built repository
+2025-10-27 17:54:49,875 [INFO] Processor.FileProcessor: Applied filters on all files
+2025-10-27 17:54:49,876 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-27 17:54:49,876 [INFO] __main__: stored inverted index
+2025-10-27 17:54:49,876 [INFO] __main__: stored tf idf
+2025-10-27 17:54:54,755 [INFO] __main__: got query from user
+2025-10-27 17:54:54,756 [INFO] Processor.QueryProcessor: apply filters on query
+2025-10-27 17:54:54,757 [INFO] Search.Searcher: found three most high scores files
+2025-10-27 18:20:37,017 [INFO] LoggerConfig: Logging configured
+2025-10-27 18:20:37,805 [INFO] __main__: built repository
+2025-10-27 18:20:42,486 [INFO] Processor.FileProcessor: Applied filters on all files
+2025-10-27 18:20:42,486 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-27 18:20:42,487 [INFO] __main__: stored inverted index
+2025-10-27 18:20:42,487 [INFO] __main__: stored tf idf
+2025-10-27 18:21:07,238 [INFO] __main__: got query from user
+2025-10-27 18:21:07,239 [INFO] Processor.QueryProcessor: apply filters on query
+2025-10-27 18:21:07,241 [INFO] Search.Searcher: found three most high scores files
+2025-10-27 18:25:42,228 [INFO] LoggerConfig: Logging configured
+2025-10-27 18:25:42,950 [INFO] __main__: built repository
+2025-10-27 18:25:42,951 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-27 18:25:48,371 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-27 18:25:48,372 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-27 18:25:48,381 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-27 18:25:48,382 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-27 18:25:48,389 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-27 18:25:48,390 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-27 18:25:48,397 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-27 18:25:48,398 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-27 18:25:48,398 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-27 18:25:48,399 [INFO] __main__: stored inverted index
+2025-10-27 18:25:48,400 [INFO] __main__: stored tf idf
+2025-10-27 18:25:53,853 [INFO] __main__: got query from user
+2025-10-27 18:25:53,854 [INFO] Processor.QueryProcessor: apply filters on query
+2025-10-27 18:25:53,855 [INFO] Search.Searcher: found three most high scores files
+2025-10-27 19:40:14,961 [INFO] LoggerConfig: Logging configured
+2025-10-27 19:41:29,956 [INFO] LoggerConfig: Logging configured
+2025-10-27 19:42:50,363 [INFO] LoggerConfig: Logging configured
+2025-10-27 19:42:50,870 [INFO] __main__: built repository
+2025-10-27 19:42:50,870 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-27 19:42:50,871 [ERROR] Processor.FileProcessor: Error while processing file file1.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:42:50,872 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-27 19:42:50,872 [ERROR] Processor.FileProcessor: Error while processing file file2.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:42:50,873 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-27 19:42:50,873 [ERROR] Processor.FileProcessor: Error while processing file file3.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:42:50,874 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-27 19:42:50,874 [ERROR] Processor.FileProcessor: Error while processing file file4.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:42:50,875 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-27 19:42:50,875 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-27 19:42:50,875 [INFO] __main__: stored inverted index
+2025-10-27 19:42:50,876 [INFO] __main__: stored tf idf
+2025-10-27 19:43:26,496 [INFO] LoggerConfig: Logging configured
+2025-10-27 19:43:26,877 [INFO] __main__: built repository
+2025-10-27 19:43:26,878 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-27 19:43:26,878 [ERROR] Processor.FileProcessor: Error while processing file file1.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:43:26,879 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-27 19:43:26,879 [ERROR] Processor.FileProcessor: Error while processing file file2.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:43:26,880 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-27 19:43:26,880 [ERROR] Processor.FileProcessor: Error while processing file file3.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:43:26,881 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-27 19:43:26,881 [ERROR] Processor.FileProcessor: Error while processing file file4.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:43:26,882 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-27 19:43:26,882 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-27 19:43:26,882 [INFO] __main__: stored inverted index
+2025-10-27 19:43:26,882 [INFO] __main__: stored tf idf
+2025-10-27 19:43:30,695 [INFO] __main__: got query from user
+2025-10-27 19:43:30,696 [INFO] Processor.QueryProcessor: apply filters on query
+2025-10-27 19:46:20,479 [INFO] LoggerConfig: Logging configured
+2025-10-27 19:46:20,878 [INFO] __main__: built repository
+2025-10-27 19:46:20,878 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-27 19:46:20,879 [ERROR] Processor.FileProcessor: Error while processing file file1.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:46:20,880 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-27 19:46:20,880 [ERROR] Processor.FileProcessor: Error while processing file file2.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:46:20,880 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-27 19:46:20,881 [ERROR] Processor.FileProcessor: Error while processing file file3.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:46:20,882 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-27 19:46:20,882 [ERROR] Processor.FileProcessor: Error while processing file file4.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:46:20,883 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-27 19:46:20,883 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-27 19:46:20,883 [INFO] __main__: stored inverted index
+2025-10-27 19:46:20,883 [INFO] __main__: stored tf idf
+2025-10-27 19:46:24,846 [INFO] __main__: got query from user
+2025-10-27 19:46:24,846 [INFO] Processor.QueryProcessor: Processing query
+2025-10-27 19:46:27,738 [INFO] Search.Searcher: found three most high scores files
+2025-10-27 19:46:35,938 [INFO] LoggerConfig: Logging configured
+2025-10-27 19:46:36,331 [INFO] __main__: built repository
+2025-10-27 19:46:36,331 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-27 19:46:36,332 [ERROR] Processor.FileProcessor: Error while processing file file1.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:46:36,332 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-27 19:46:36,333 [ERROR] Processor.FileProcessor: Error while processing file file2.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:46:36,333 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-27 19:46:36,334 [ERROR] Processor.FileProcessor: Error while processing file file3.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:46:36,334 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-27 19:46:36,335 [ERROR] Processor.FileProcessor: Error while processing file file4.txt: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Carmel\pythonProject3\Processor\FileProcessor.py", line 32, in run
+    result[name] = self.apply_filters(content)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcessor.apply_filters() missing 1 required positional argument: 'stopwords_path'
+2025-10-27 19:46:36,335 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-27 19:46:36,335 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-27 19:46:36,336 [INFO] __main__: stored inverted index
+2025-10-27 19:46:36,336 [INFO] __main__: stored tf idf
+2025-10-27 19:46:40,593 [INFO] __main__: got query from user
+2025-10-27 19:46:40,593 [INFO] Processor.QueryProcessor: Processing query
+2025-10-27 19:46:43,483 [INFO] Search.Searcher: found three most high scores files
+2025-10-27 19:49:06,655 [INFO] LoggerConfig: Logging configured
+2025-10-27 19:49:07,050 [INFO] __main__: built repository
+2025-10-27 19:49:07,051 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-27 19:49:10,109 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-27 19:49:10,110 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-27 19:49:10,113 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-27 19:49:10,113 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-27 19:49:10,116 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-27 19:49:10,116 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-27 19:49:10,119 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-27 19:49:10,119 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-27 19:49:10,119 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-27 19:49:10,119 [INFO] __main__: stored inverted index
+2025-10-27 19:49:10,120 [INFO] __main__: stored tf idf
+2025-10-27 19:49:16,463 [INFO] __main__: got query from user
+2025-10-27 19:49:16,463 [INFO] Processor.QueryProcessor: Processing query
+2025-10-27 19:49:16,464 [INFO] Search.Searcher: found three most high scores files
+2025-10-28 13:07:00,138 [INFO] LoggerConfig: Logging configured
+2025-10-28 13:07:00,865 [INFO] __main__: built repository
+2025-10-28 13:07:00,866 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-28 13:07:06,443 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-28 13:07:06,444 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-28 13:07:06,449 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-28 13:07:06,449 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-28 13:07:06,452 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-28 13:07:06,452 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-28 13:07:06,455 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-28 13:07:06,455 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-28 13:07:06,456 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-28 13:07:06,457 [INFO] __main__: stored inverted index
+2025-10-28 13:07:06,457 [INFO] __main__: stored tf idf
+2025-10-28 13:07:14,671 [INFO] __main__: got query from user
+2025-10-28 13:07:14,672 [INFO] Processor.QueryProcessor: Processing query
+2025-10-28 13:07:14,673 [INFO] Search.Searcher: found three most high scores files
+2025-10-28 13:16:55,663 [INFO] LoggerConfig: Logging configured
+2025-10-28 13:17:03,731 [INFO] __main__: Built repository
+2025-10-28 13:17:03,733 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-28 13:17:08,846 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-28 13:17:08,846 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-28 13:17:08,851 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-28 13:17:08,852 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-28 13:17:08,856 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-28 13:17:08,857 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-28 13:17:08,866 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-28 13:17:08,867 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-28 13:17:08,868 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-28 13:17:08,868 [INFO] __main__: Stored inverted index
+2025-10-28 13:17:08,869 [INFO] __main__: Stored TF-IDF
+2025-10-28 13:17:16,185 [INFO] __main__: Got query from user
+2025-10-28 13:17:16,186 [INFO] Processor.QueryProcessor: Processing query
+2025-10-28 13:17:16,187 [INFO] __main__: query has been filterd
+2025-10-28 13:17:16,188 [INFO] Search.Searcher: found three most high scores files
+2025-10-28 13:17:16,189 [INFO] __main__: result has been printed
+2025-10-28 13:24:37,067 [INFO] LoggerConfig: Logging configured
+2025-10-28 13:24:37,910 [INFO] __main__: Built repository
+2025-10-28 13:24:37,917 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-28 13:24:46,171 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-28 13:24:46,172 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-28 13:24:46,180 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-28 13:24:46,181 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-28 13:24:46,189 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-28 13:24:46,190 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-28 13:24:46,197 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-28 13:24:46,198 [INFO] Processor.FileProcessor: Applied filters on all files in directory
+2025-10-28 13:24:46,198 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-28 13:24:46,199 [INFO] __main__: Stored inverted index
+2025-10-28 13:24:46,200 [INFO] __main__: Stored TF-IDF
+2025-10-28 13:24:51,454 [INFO] __main__: Got query from user
+2025-10-28 13:24:51,455 [INFO] Processor.QueryProcessor: Processing query
+2025-10-28 13:24:51,456 [INFO] __main__: query has been filterd
+2025-10-28 13:24:51,457 [INFO] Search.Searcher: found three most high scores files
+2025-10-28 13:24:51,457 [INFO] __main__: result has been printed
+2025-10-28 13:29:54,453 [INFO] LoggerConfig: Logging started
+2025-10-28 13:29:55,455 [INFO] __main__: Built repository
+2025-10-28 13:29:55,456 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-28 13:30:00,505 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-28 13:30:00,506 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-28 13:30:00,513 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-28 13:30:00,514 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-28 13:30:00,523 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-28 13:30:00,523 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-28 13:30:00,528 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-28 13:30:00,528 [INFO] Processor.FileProcessor: Applied filters on all files in directory
+2025-10-28 13:30:00,529 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-28 13:30:00,529 [INFO] __main__: Stored inverted index
+2025-10-28 13:30:00,530 [INFO] __main__: Stored TF-IDF
+2025-10-28 13:30:06,232 [INFO] __main__: Got query from user
+2025-10-28 13:30:06,233 [INFO] Processor.QueryProcessor: Processing query
+2025-10-28 13:30:06,234 [INFO] __main__: query has been filterd
+2025-10-28 13:30:06,235 [INFO] Search.Searcher: found three most high scores files
+2025-10-28 13:30:06,235 [INFO] __main__: result has been printed
+2025-10-28 13:34:12,906 [INFO] LoggerConfig: Logging started
+2025-10-28 13:34:13,832 [INFO] __main__: Built repository
+2025-10-28 13:34:13,833 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-28 13:34:18,674 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-28 13:34:18,674 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-28 13:34:18,680 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-28 13:34:18,681 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-28 13:34:18,686 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-28 13:34:18,686 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-28 13:34:18,690 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-28 13:34:18,691 [INFO] Processor.FileProcessor: Applied filters on all files in directory
+2025-10-28 13:34:30,834 [INFO] LoggerConfig: Logging started
+2025-10-28 13:34:31,604 [INFO] __main__: Built repository
+2025-10-28 13:34:31,605 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-28 13:34:36,081 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-28 13:34:36,082 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-28 13:34:36,086 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-28 13:34:36,087 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-28 13:34:36,091 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-28 13:34:36,092 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-28 13:34:36,096 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-28 13:34:36,096 [INFO] Processor.FileProcessor: Applied filters on all files in directory
+2025-10-28 13:34:36,096 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-28 13:34:36,096 [INFO] __main__: Stored inverted index
+2025-10-28 13:34:36,097 [INFO] __main__: Stored TF-IDF
+2025-10-28 13:34:43,016 [INFO] __main__: Got query from user
+2025-10-28 13:34:43,017 [INFO] Processor.QueryProcessor: Processing query
+2025-10-28 13:34:43,018 [INFO] __main__: query has been filterd
+2025-10-28 13:34:43,018 [INFO] Search.Searcher: found three most high scores files
+2025-10-28 13:34:43,019 [INFO] __main__: result has been printed
+2025-10-28 15:53:34,578 [INFO] LoggerConfig: Logging started
+2025-10-28 15:53:35,209 [INFO] LoggerConfig: Logging started
+2025-10-28 15:53:35,246 [INFO] app: Built repository
+2025-10-28 15:53:35,247 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-28 15:53:38,409 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-28 15:53:38,409 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-28 15:53:38,419 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-28 15:53:38,419 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-28 15:53:38,422 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-28 15:53:38,422 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-28 15:53:38,425 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-28 15:53:38,425 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-28 15:53:38,426 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-28 15:53:38,426 [INFO] app: Stored inverted index
+2025-10-28 15:53:38,426 [INFO] app: Stored TF-IDF
+2025-10-28 15:53:44,057 [INFO] app: Got query from user
+2025-10-28 15:53:44,057 [INFO] Processor.QueryProcessor: Processing user query
+2025-10-28 15:53:44,058 [INFO] Processor.QueryProcessor: Query tokens after filtering
+2025-10-28 15:53:44,058 [INFO] app: query has been filterd
+2025-10-28 15:53:44,059 [INFO] Search.Searcher: found three most high scores files
+2025-10-28 15:53:44,059 [INFO] app: result has been printed
+2025-10-28 16:07:01,289 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:07:02,435 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:12:44,240 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:12:44,633 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:12:44,663 [INFO] app: Built repository
+2025-10-28 16:12:47,821 [INFO] Processor.FileProcessor: Applied filters on all files in directory
+2025-10-28 16:12:47,821 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-28 16:12:47,822 [INFO] app: Stored inverted index
+2025-10-28 16:12:47,822 [INFO] app: Stored TF-IDF
+2025-10-28 16:13:06,015 [INFO] app: Got query from user
+2025-10-28 16:13:06,015 [INFO] Processor.QueryProcessor: Processing user query
+2025-10-28 16:13:06,016 [INFO] Processor.QueryProcessor: Query tokens after filtering
+2025-10-28 16:13:06,016 [INFO] app: query has been filterd
+2025-10-28 16:13:06,016 [INFO] Search.Searcher: calculated combined TF-IDF scores for all files
+2025-10-28 16:13:06,017 [INFO] Search.Searcher: sorted files by score
+2025-10-28 16:13:06,017 [INFO] Search.Searcher: found three highest score files
+2025-10-28 16:13:06,021 [INFO] app: result has been printed
+2025-10-28 16:13:25,977 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:13:26,338 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:13:26,355 [INFO] app: Built repository
+2025-10-28 16:13:29,237 [INFO] Processor.FileProcessor: Applied filters on all files in directory
+2025-10-28 16:13:29,238 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-28 16:13:29,238 [INFO] app: Stored inverted index
+2025-10-28 16:13:29,238 [INFO] app: Stored TF-IDF
+2025-10-28 16:15:14,569 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:15:14,943 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:15:14,953 [INFO] app: Built repository
+2025-10-28 16:15:14,954 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-28 16:15:18,154 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-28 16:15:18,154 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-28 16:15:18,157 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-28 16:15:18,157 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-28 16:15:18,160 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-28 16:15:18,160 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-28 16:15:18,163 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-28 16:15:18,163 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-28 16:15:18,164 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-28 16:15:18,164 [INFO] app: Stored inverted index
+2025-10-28 16:15:18,164 [INFO] app: Stored TF-IDF
+2025-10-28 16:15:27,455 [INFO] app: Got query from user
+2025-10-28 16:15:27,455 [INFO] Processor.QueryProcessor: Processing user query
+2025-10-28 16:15:27,456 [INFO] Processor.QueryProcessor: Query tokens after filtering
+2025-10-28 16:15:27,456 [INFO] app: query has been filterd
+2025-10-28 16:15:27,456 [INFO] Search.Searcher: calculated combined TF-IDF scores for all files
+2025-10-28 16:15:27,457 [INFO] Search.Searcher: sorted files by score
+2025-10-28 16:15:27,457 [INFO] Search.Searcher: found three highest score files
+2025-10-28 16:15:27,457 [INFO] app: result has been printed
+2025-10-28 16:23:32,582 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:23:32,951 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:23:32,970 [INFO] app: Built repository
+2025-10-28 16:23:32,970 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-28 16:23:35,895 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-28 16:23:35,895 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-28 16:23:35,898 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-28 16:23:35,898 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-28 16:23:35,901 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-28 16:23:35,901 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-28 16:23:35,903 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-28 16:23:35,904 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-28 16:23:35,904 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-28 16:23:35,904 [INFO] app: Stored inverted index
+2025-10-28 16:23:35,904 [INFO] app: Stored TF-IDF
+2025-10-28 16:23:39,098 [INFO] app: Got query from user
+2025-10-28 16:23:39,099 [INFO] Processor.QueryProcessor: Processing user query
+2025-10-28 16:23:39,099 [INFO] Processor.QueryProcessor: Query tokens after filtering
+2025-10-28 16:23:39,100 [INFO] app: query has been filterd
+2025-10-28 16:23:39,100 [INFO] Search.Searcher: calculated combined TF-IDF scores for all files
+2025-10-28 16:23:39,100 [INFO] Search.Searcher: sorted files by score
+2025-10-28 16:23:39,100 [INFO] Search.Searcher: found three highest score files
+2025-10-28 16:23:39,101 [INFO] app: result has been printed
+2025-10-28 16:26:03,815 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:26:04,178 [INFO] Logs.LoggerConfig: Logging started
+2025-10-28 16:26:04,189 [INFO] app: Built repository
+2025-10-28 16:26:04,189 [INFO] Processor.FileProcessor: Started filtering file: file1.txt
+2025-10-28 16:26:07,075 [INFO] Processor.FileProcessor: Finished filtering file: file1.txt
+2025-10-28 16:26:07,075 [INFO] Processor.FileProcessor: Started filtering file: file2.txt
+2025-10-28 16:26:07,078 [INFO] Processor.FileProcessor: Finished filtering file: file2.txt
+2025-10-28 16:26:07,078 [INFO] Processor.FileProcessor: Started filtering file: file3.txt
+2025-10-28 16:26:07,081 [INFO] Processor.FileProcessor: Finished filtering file: file3.txt
+2025-10-28 16:26:07,081 [INFO] Processor.FileProcessor: Started filtering file: file4.txt
+2025-10-28 16:26:07,084 [INFO] Processor.FileProcessor: Finished filtering file: file4.txt
+2025-10-28 16:26:07,084 [INFO] Processor.FileProcessor: Applied filters on all files in directory: C:/Users/User/Desktop/Carmel/pythonProject3/sample_text
+2025-10-28 16:26:07,084 [INFO] Indexer.inverted_indexr: built inverted index on files
+2025-10-28 16:26:07,084 [INFO] app: Stored inverted index
+2025-10-28 16:26:07,085 [INFO] app: Stored TF-IDF
